@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://example.com/introduce/index.html</loc>
+    <loc>http://huketo.github.io/2022/07/25/Test-10/</loc>
     
     <lastmod>2022-07-25</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2022/07/23/hello-world/</loc>
+    <loc>http://huketo.github.io/introduce/index.html</loc>
     
     <lastmod>2022-07-25</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2022/07/25/Test-10/</loc>
+    <loc>http://huketo.github.io/2022/07/23/hello-world/</loc>
     
     <lastmod>2022-07-25</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2022/07/25/Test-9/</loc>
+    <loc>http://huketo.github.io/2022/07/25/Test-9/</loc>
     
     <lastmod>2022-07-25</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2022/07/25/Test-8/</loc>
+    <loc>http://huketo.github.io/2022/07/25/Test-8/</loc>
     
     <lastmod>2022-07-25</lastmod>
     
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2022/07/25/Test-7/</loc>
+    <loc>http://huketo.github.io/2022/07/25/Test-7/</loc>
     
     <lastmod>2022-07-25</lastmod>
     
@@ -56,7 +56,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2022/07/25/Test-6/</loc>
+    <loc>http://huketo.github.io/2022/07/25/Test-6/</loc>
     
     <lastmod>2022-07-25</lastmod>
     
@@ -65,7 +65,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2022/07/25/Test-5/</loc>
+    <loc>http://huketo.github.io/2022/07/25/Test-5/</loc>
     
     <lastmod>2022-07-25</lastmod>
     
@@ -74,7 +74,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2022/07/25/Test-4/</loc>
+    <loc>http://huketo.github.io/2022/07/25/Test-4/</loc>
     
     <lastmod>2022-07-25</lastmod>
     
@@ -83,7 +83,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2022/07/25/Test-3/</loc>
+    <loc>http://huketo.github.io/2022/07/25/Test-3/</loc>
     
     <lastmod>2022-07-25</lastmod>
     
@@ -92,7 +92,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2022/07/25/Test-2/</loc>
+    <loc>http://huketo.github.io/2022/07/25/Test-2/</loc>
     
     <lastmod>2022-07-25</lastmod>
     
@@ -101,7 +101,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2022/07/25/Test-1/</loc>
+    <loc>http://huketo.github.io/2022/07/25/Test-1/</loc>
     
     <lastmod>2022-07-25</lastmod>
     
@@ -111,7 +111,7 @@
   
 
   <url>
-    <loc>http://example.com/</loc>
+    <loc>http://huketo.github.io/</loc>
     <lastmod>2022-07-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -119,14 +119,14 @@
 
   
   <url>
-    <loc>http://example.com/tags/food/</loc>
+    <loc>http://huketo.github.io/tags/food/</loc>
     <lastmod>2022-07-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/photo/</loc>
+    <loc>http://huketo.github.io/tags/photo/</loc>
     <lastmod>2022-07-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -135,14 +135,14 @@
 
   
   <url>
-    <loc>http://example.com/categories/food/</loc>
+    <loc>http://huketo.github.io/categories/food/</loc>
     <lastmod>2022-07-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/categories/hexo/</loc>
+    <loc>http://huketo.github.io/categories/hexo/</loc>
     <lastmod>2022-07-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
