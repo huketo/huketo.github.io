@@ -1,6 +1,4 @@
 http://huketo.github.io/2022/07/25/Test-10/
-http://huketo.github.io/introduce/index.html
-http://huketo.github.io/2022/07/23/hello-world/
 http://huketo.github.io/2022/07/25/Test-9/
 http://huketo.github.io/2022/07/25/Test-8/
 http://huketo.github.io/2022/07/25/Test-7/
@@ -10,6 +8,8 @@ http://huketo.github.io/2022/07/25/Test-4/
 http://huketo.github.io/2022/07/25/Test-3/
 http://huketo.github.io/2022/07/25/Test-2/
 http://huketo.github.io/2022/07/25/Test-1/
+http://huketo.github.io/introduce/index.html
+http://huketo.github.io/2022/07/23/hello-world/
 http://huketo.github.io/
 http://huketo.github.io/tags/food/
 http://huketo.github.io/tags/photo/
