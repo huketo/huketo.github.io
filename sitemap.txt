@@ -1,4 +1,5 @@
 http://huketo.github.io/2022/07/25/Test-10/
+http://huketo.github.io/2022/07/27/%ED%95%9C%EA%B8%80%ED%85%8C%EC%8A%A4%ED%8A%B8/
 http://huketo.github.io/2022/07/25/Test-9/
 http://huketo.github.io/2022/07/25/Test-8/
 http://huketo.github.io/2022/07/25/Test-7/
@@ -13,5 +14,11 @@ http://huketo.github.io/2022/07/23/hello-world/
 http://huketo.github.io/
 http://huketo.github.io/tags/food/
 http://huketo.github.io/tags/photo/
+http://huketo.github.io/tags/%EB%8F%99%ED%95%B4%EB%B0%94%EB%8B%A4/
+http://huketo.github.io/tags/%EC%84%AC/
 http://huketo.github.io/categories/food/
+http://huketo.github.io/categories/food/meat/
+http://huketo.github.io/categories/food/meat/galbi/
 http://huketo.github.io/categories/hexo/
+http://huketo.github.io/categories/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD/
+http://huketo.github.io/categories/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD/%EB%8F%85%EB%8F%84/
