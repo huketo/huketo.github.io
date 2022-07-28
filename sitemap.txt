@@ -21,4 +21,6 @@ http://huketo.github.io/categories/food/meat/
 http://huketo.github.io/categories/food/meat/galbi/
 http://huketo.github.io/categories/hexo/
 http://huketo.github.io/categories/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD/
+http://huketo.github.io/categories/food/meat/galbi/%EC%B0%8C%EA%B0%9C/
 http://huketo.github.io/categories/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD/%EB%8F%85%EB%8F%84/
+http://huketo.github.io/categories/food/meat/galbi/%EC%B0%8C%EA%B0%9C/%EA%B5%AD%EB%B0%A5/

@@ -51,7 +51,7 @@
     <link href="http://huketo.github.io/2022/07/25/Test-10/"/>
     <id>http://huketo.github.io/2022/07/25/Test-10/</id>
     <published>2022-07-25T04:54:03.000Z</published>
-    <updated>2022-07-27T16:27:54.559Z</updated>
+    <updated>2022-07-28T14:30:19.101Z</updated>
     
     <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>]]></content>
     
@@ -70,6 +70,10 @@
     <category term="meat" scheme="http://huketo.github.io/categories/food/meat/"/>
     
     <category term="galbi" scheme="http://huketo.github.io/categories/food/meat/galbi/"/>
+    
+    <category term="찌개" scheme="http://huketo.github.io/categories/food/meat/galbi/%EC%B0%8C%EA%B0%9C/"/>
+    
+    <category term="국밥" scheme="http://huketo.github.io/categories/food/meat/galbi/%EC%B0%8C%EA%B0%9C/%EA%B5%AD%EB%B0%A5/"/>
     
     
     <category term="food" scheme="http://huketo.github.io/tags/food/"/>
