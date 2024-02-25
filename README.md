@@ -1,12 +1,12 @@
-# Hugo FixIt 博客模板（Go）
+# Hugo FixIt Blog Template (Go)
 
-👉 中文 | [English](README.en.md)
+👉 한국어 | [English](README.en.md) | [简体中文](README.cn.md)
 
-这是 Hugo 主题 [FixIt](https://github.com/hugo-fixit/FixIt) 的快速启动模板。它使用 [Hugo 模块](https://gohugo.io/hugo-modules/) 功能加载主题。
+이것은 Hugo theme [FixIt](https://github.com/hugo-fixit/FixIt) 의 빠른 시작 템플릿입니다. [Hugo Modules](https://gohugo.io/hugo-modules/) 기능을 사용하여 테마를 불러오고 있습니다.
 
-它提供了基本的主题结构和配置。已经设置了 GitHub Actions，可以自动部署博客到 GitHub Pages。此外，还有一个定时任务，每天自动更新主题。
+기본 테마 구조와 설정파일이 제공됩니다. GitHub action을 사용하여 GitHub page에 자동으로 배포되도록 설정되어 있습니다. 또한 매일 자정에 자동으로 테마를 업데이트하는 cron 작업도 설정되어 있습니다.
 
-## 目录结构
+## Directory structure
 
 ```bash
 ▸ .github/       # GitHub configuration
@@ -22,76 +22,78 @@
 ▸ go.sum
 ```
 
-## 快速入门
+## Quick Start
 
-完整的快速入门，请参阅此 [页面](https://fixit.lruihao.cn/documentation/getting-started/)。
+자세한 빠른 시작 가이드는 이 [page](https://fixit.lruihao.cn/documentation/getting-started/)를 참조하세요.
 
-### 准备
+### Prerequisites
 
 - [Go](https://go.dev/dl/)
 - [Hugo](https://gohugo.io/installation/): >= 0.112.0 (extended version)
 
-### 使用模板
+### Use Template
 
-1. 点击 **Use this template**，在 GitHub 上创建你的存储库。
+> 이 레포지토리는 Template가 아니므로 설명만 기재합니다.
 
-    <img width="913" alt="image" src="https://github.com/hugo-fixit/hugo-fixit-starter1/assets/33419593/d5fbd940-3ffd-4750-b1e6-4e87b50b0696">
+1. **Use this template** 버튼을 클릭해 Github에서 repository를 생성하세요.
 
-2. 存储库创建后，只需克隆并享受吧！
+<img width="913" alt="image" src="https://github.com/hugo-fixit/hugo-fixit-starter1/assets/33419593/d5fbd940-3ffd-4750-b1e6-4e87b50b0696">
 
-    ```bash
-    # 使用你自己的存储库 URL 进行克隆
-    git clone --recursive https://github.com/<your_name>/<your_blog_repo>.git
-    ```
+2. 다음으로 repository가 생성되었다면, clone 하면 됩니다(--recursive 포함).
 
-### 启动站点
+   ```bash
+   # Clone with your own repository url
+   git clone --recursive https://github.com/<your_name>/<your_blog_repo>.git
+   ```
+
+### Launching the Site
 
 ```bash
-# 开发环境
+# Development environment
 hugo server
-# 生产环境
+# Production environment
 hugo server -e production
 ```
 
-### 构建站点
+### Build the Site
 
-当你的站点准备部署时，运行以下命令：
+사이트를 배포할 준비가 되었다면, 이 커맨드를 실행하세요:
 
 ```bash
 hugo
 ```
 
-### 更新主题
+### Update Theme
 
-之后，你可以使用以下命令升级主题：
+나중에 이 명령어를 사용하여 테마를 업데이트할 수 있습니다:
 
 ```bash
-# 手动更新主题
+# Update theme manually
 hugo mod get -u github.com/hugo-fixit/FixIt@latest
 hugo mod tidy
 ```
 
 <details>
-  <summary>通过 NPM 脚本启动</summary>
+  <summary>Start via NPM script</summary>
 
-  ```bash
-  # 构建博客
-  npm run build
-  # 运行带有监视的本地调试服务器
-  npm run server
-  # 在生产环境中运行本地调试服务器
-  npm run server:production
-  # 更新主题子模块
-  npm run update:theme
-  ```
+```bash
+# build the blog
+npm run build
+# run a local debugging server with watch
+npm run server
+# run a local debugging server in production environment
+npm run server:production
+# update theme submodules
+npm run update:theme
+```
 
 </details>
 
-## 故障排除
+## Troubleshooting
 
 <details>
   <summary>remote: Permission to git denied to github-actions[bot].</summary>
-  转到 Setting => Actions => General => Workflow permissions => 选中 "Read and write permissions"。
+  Head to Setting => Actions => General => Workflow permissions => Check "Read and write permissions".
 </details>
 
-<!-- 此项目是使用 [hugo-fixit-starter](https://github.com/hugo-fixit/hugo-fixit-starter) 生成的。 -->
+<!-- This project was generated with [hugo-fixit-starter](https://github.com/hugo-fixit/hugo-fixit-starter). -->

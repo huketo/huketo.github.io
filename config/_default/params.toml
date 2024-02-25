@@ -6,9 +6,9 @@
 # FixIt 0.2.15 | CHANGED FixIt theme version
 version = "0.2.X" # e.g. "0.2.X", "0.2.15", "v0.2.15" etc.
 # site description
-description = "This is my new Hugo FixIt site"
+description = "Finish your tasks and leave the rest to fate"
 # site keywords
-keywords = ["Hugo", "FixIt"]
+keywords = ["Blog", "Developer", "Golang", "JavaScript", "Web", "Blockchain"]
 # site default theme ["light", "dark", "auto"]
 defaultTheme = "auto"
 # which hash function used for SRI, when empty, no SRI is used
@@ -38,9 +38,9 @@ disableThemeInject = false
 
 # Author Configuration
 [author]
-  name = "Lruihao"
-  email = "1024@lruihao.cn"
-  link = "https://github.com/Lruihao"
+  name = "Huketo"
+  email = "fonytailmoe@gmail.com"
+  link = "https://github.com/huketo"
   avatar = ""
 
 # FixIt 0.3.0 | NEW public Git repository information only then enableGitInfo is true
@@ -57,7 +57,7 @@ disableThemeInject = false
 # App icon config
 [app]
   # optional site title override for the app when added to an iOS home screen or Android launcher
-  title = "Hugo FixIt Blog"
+  title = "Huketo's Blog"
   # whether to omit favicon resource links
   noFavicon = false
   # modern SVG favicon to use in place of older style .png and .ico files
@@ -113,7 +113,7 @@ disableThemeInject = false
   # Header title config
   [header.title]
     # URL of the LOGO
-    logo = "/hugo-fixit-starter/images/fixit.min.svg"
+    logo = "/images/fixit.min.svg"
     # title name
     name = ""
     # you can add extra information before the name (HTML format is supported), such as icons
@@ -131,8 +131,8 @@ disableThemeInject = false
 
 # FixIt 0.2.18 | NEW Breadcrumb config
 [breadcrumb]
-  enable = false
-  sticky = false
+  enable = true
+  sticky = true
   showHome = false
 
 # Footer config
@@ -146,7 +146,7 @@ disableThemeInject = false
   # whether to show the author
   author = true
   # Site creation year
-  since = 2021
+  since = 2024
   # FixIt 0.2.12 | NEW Public network security only in China (HTML format is supported)
   gov = ""
   # ICP info only in China (HTML format is supported)
@@ -160,16 +160,16 @@ disableThemeInject = false
     themeLogo = true
   # FixIt 0.2.17 | CHANGED Site creation time
   [footer.siteTime]
-    enable = false
+    enable = true
     animate = true
     icon = "fa-solid fa-heartbeat"
-    pre = ""
-    value = "" # e.g. "2021-12-18T16:15:22+08:00"
+    pre = "UpTime"
+    value = "2024-02-18T16:55:22+09:00" # e.g. "2021-12-18T16:15:22+08:00"
   # FixIt 0.2.17 | NEW footer lines order, optional values: ["first", 0, 1, 2, 3, 4, 5, "last"]
   [footer.order]
     powered = 0
     copyright = 0
-    statistics = 0
+    statistics = "first"
     visitor = 0
     beian = 0
 
@@ -221,7 +221,7 @@ disableThemeInject = false
   [home.profile]
     enable = true
     # Gravatar Email for preferred avatar in home page
-    gravatarEmail = "xx@xx.com"
+    gravatarEmail = "fonytailmoe@gmail.com"
     # URL of avatar shown in home page
     avatarURL = ""
     # FixIt 0.2.17 | NEW identifier of avatar menu link
@@ -244,7 +244,7 @@ disableThemeInject = false
 
 # FixIt 0.2.16 | CHANGED Social config about the author
 [social]
-  GitHub = ""
+  GitHub = "huketo"
   Linkedin = ""
   Twitter = ""
   Instagram = ""
@@ -329,7 +329,7 @@ disableThemeInject = false
   Douyin = ""
   TikTok = ""
   Phone = ""
-  Email = ""
+  Email = "fonytailmoe@gmail.com"
   RSS = true
 
 # Page config
@@ -499,7 +499,7 @@ disableThemeInject = false
     Instapaper = false
     Pocket = false
     Flipboard = false
-    Weibo = true
+    Weibo = false
     Myspace = false
     Blogger = false
     Baidu = false
@@ -510,7 +510,7 @@ disableThemeInject = false
     Mix = false
   # FixIt 0.2.15 | CHANGED Comment config
   [page.comment]
-    enable = false
+    enable = true
     # FixIt 0.2.13 | NEW Artalk comment config (https://artalk.js.org/)
     [page.comment.artalk]
       enable = false
@@ -631,19 +631,19 @@ disableThemeInject = false
       katex = false
     # FixIt 0.2.14 | NEW Giscus comments config
     [page.comment.giscus]
-      enable = false
-      repo = ""
-      repoId = ""
-      category = ""
-      categoryId = ""
-      mapping = ""
+      enable = true
+      repo = "huketo/huketo.github.io"
+      repoId = "R_kgDOLXmSnw"
+      category = "Comments"
+      categoryId = "DIC_kwDOLXmSn84CdfzD"
+      mapping = "title"
       strict = "0" # FixIt NEW | 0.2.18
       term = ""
       reactionsEnabled = "1"
       emitMetadata = "0"
       inputPosition = "bottom" # ["top", "bottom"]
       lightTheme = "light"
-      darkTheme = "dark"
+      darkTheme = "dark_dimmed"
       lazyLoad = true
   # Third-party library config
   [page.library]
@@ -715,9 +715,9 @@ disableThemeInject = false
 
 # FixIt 0.2.12 | NEW Busuanzi count
 [ibruce]
-  enable = false
+  enable = true
   # Enable in post meta
-  enablePost = false
+  enablePost = true
 
 # Site verification code config for Google/Bing/Yandex/Pinterest/Baidu/360/Sogou
 [verification]
@@ -738,10 +738,10 @@ disableThemeInject = false
 
 # Analytics config
 [analytics]
-  enable = false
+  enable = true
   # Google Analytics
   [analytics.google]
-    id = ""
+    id = "G-ZMZ3PLHEL4"
     # whether to anonymize IP
     anonymizeIP = true
   # Fathom Analytics
@@ -785,14 +785,14 @@ disableThemeInject = false
   # FixIt 0.2.18 | NEW Depends on the author's email, if the author's email is not set, the local avatar will be used
   enable = true
   # Gravatar host, default: "www.gravatar.com"
-  host = "gravatar.loli.net" # ["cn.gravatar.com", "gravatar.loli.net", ...]
+  host = "www.gravatar.com" # ["cn.gravatar.com", "gravatar.loli.net", ...]
   style = "" # ["", "mp", "identicon", "monsterid", "wavatar", "retro", "blank", "robohash"]
 
 # FixIt 0.2.16 | NEW Back to top
 [backToTop]
   enable = true
   # Scroll percent label in b2t button
-  scrollpercent = false
+  scrollpercent = true
 
 # FixIt 0.2.16 | NEW Reading progress bar
 [readingProgress]
