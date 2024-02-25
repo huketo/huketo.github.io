@@ -1,11 +1,7 @@
 ---
 title: {{ replace .Name "-" " " | title }}
-subtitle: ''
-description: ''
-summary: ''
 date: {{ .Date }}
 tags: ['']
-keywords: ['']
 categories: ['']
 type: posts
 resources:
