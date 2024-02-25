@@ -229,7 +229,7 @@ disableThemeInject = false
     # title shown in home page (HTML format is supported)
     title = ""
     # subtitle shown in home page
-    subtitle = "This is my new Hugo FixIt site"
+    subtitle = "Finish your tasks and leave the rest to fate"
     # whether to use typeit animation for subtitle
     typeit = true
     # whether to show social links
