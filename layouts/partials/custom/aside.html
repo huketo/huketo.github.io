@@ -1,0 +1,23 @@
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/sakana-widget@2.7.0/lib/sakana.min.css"
+/>
+<div id="sakana-widget" style="position: fixed; right: 60px; bottom: 0px"></div>
+<script>
+  function initSakanaWidget() {
+    new SakanaWidget({
+      character: 'chisato',
+      controls: false,
+    })
+      .setState({
+        i: 0.01,
+        d: 0.95,
+      })
+      .mount('#sakana-widget');
+  }
+</script>
+<script
+  async
+  onload="initSakanaWidget()"
+  src="https://cdn.jsdelivr.net/npm/sakana-widget@2.7.0/lib/sakana.min.js"
+></script>
