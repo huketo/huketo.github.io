@@ -26,6 +26,9 @@ jobs:
       - name: Tidy go.mod, go.sum
         run: hugo mod tidy
 
+      - name: Pull latest changes
+        run: git pull origin main
+
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
