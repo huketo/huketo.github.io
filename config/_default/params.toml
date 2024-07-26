@@ -818,13 +818,6 @@ disableThemeInject = false
   # "corner-indicator", "fill-left", "flash", "flat-top", "loading-bar", "mac-osx", "material", "minimal"]
   theme = "minimal"
 
-# FixIt 0.2.17 | NEW Define custom file paths
-# Create your custom files in site directory `layouts/partials/custom` and uncomment needed files below
-[customFilePath]
-  aside = "custom/aside.html"
-  profile = "custom/profile.html"
-  # footer = "custom/footer.html"
-
 # FixIt 0.2.15 | NEW Developer options
 [dev]
   enable = false
